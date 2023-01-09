@@ -104,7 +104,7 @@ include 'func.php';
 function myFunction() {
 
   <?php session_destroy();?>
-   window.location="clownfish-app-krh8z.ondigitalocean.app/login.php" ;   
+   window.location="https://clownfish-app-krh8z.ondigitalocean.app/login.php" ;   
 }
 </script>
 

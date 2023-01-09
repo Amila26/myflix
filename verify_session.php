@@ -20,7 +20,7 @@ if(!empty($email) && !empty($pw))
 $userNAme = $_SESSION['username'];
     $user_password = $_SESSION['pwd'];
 }else{
-   echo '<script>window.location="clownfish-app-krh8z.ondigitalocean.app/login.php";</script>';
+   echo '<script>window.location="https://clownfish-app-krh8z.ondigitalocean.app/login.php";</script>';
 };
 
 ?>
