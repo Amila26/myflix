@@ -104,7 +104,7 @@ include 'func.php';
 function myFunction() {
 
   <?php session_destroy();?>
-   window.location="http://localhost/Myflix/login.php" ;   
+   window.location="http://localhost/login.php" ;   
 }
 </script>
 

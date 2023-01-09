@@ -64,7 +64,7 @@ $(document).ready(function () {
                   
                     $.ajax({
                         type: 'POST',
-                        url: 'http://localhost/Myflix/login_verify.php',
+                        url: 'http://localhost/login_verify.php',
                         data: dataString,
                         success: function (data) {
                             

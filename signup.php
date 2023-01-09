@@ -13,7 +13,7 @@ if(!empty($email) || !empty($pwd) || !empty($rpwd)){
    // updateUser($fname,$email);
    if ($pwd === $rpwd){
    insertSignup($fname,$email,$pwd,'active');
-   echo '<script>window.location="http://localhost/Myflix/login.php";</script>' ;
+   echo '<script>window.location="http://localhost/login.php";</script>' ;
    }else{
     echo 'Password Missmached';
    }
