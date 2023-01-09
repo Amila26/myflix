@@ -70,7 +70,7 @@ $(document).ready(function () {
                             
                             $('#resonse').html(data);
                             // $('#loading_air_cell_book2').hide();
-
+                            $('#resonse').show();
                             // $('#message-review2').show();
                            
 
