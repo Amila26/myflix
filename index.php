@@ -1,0 +1,1 @@
+<script>window.location="http://localhost/login.php";</script>
