@@ -64,7 +64,7 @@ $(document).ready(function () {
                   
                     $.ajax({
                         type: 'POST',
-                        url: 'clownfish-app-krh8z.ondigitalocean.app/login_verify.php',
+                        url: 'https://clownfish-app-krh8z.ondigitalocean.app/login_verify.php',
                         data: dataString,
                         success: function (data) {
                             

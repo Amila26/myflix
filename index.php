@@ -1,1 +1,1 @@
-<script>window.location="clownfish-app-krh8z.ondigitalocean.app/login.php";</script>
+<script>window.location="https://clownfish-app-krh8z.ondigitalocean.app/login.php";</script>
