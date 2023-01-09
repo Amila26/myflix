@@ -14,7 +14,7 @@ if(!empty($usr_email) && !empty($usr_pwd)){
     $_SESSION['username'] = $usr_email;
     $_SESSION['pwd'] = $usr_pwd ;
 echo 'Login Success!';
-    echo '<script>window.location="http://localhost/Vedio.php";</script>';
+    echo '<script>window.location="clownfish-app-krh8z.ondigitalocean.app/Vedio.php";</script>';
 }else{
     echo 'Wrong User Name Or Password';
 }
