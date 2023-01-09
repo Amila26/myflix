@@ -38,7 +38,7 @@
               <input type="checkbox" class="form-check-input" id="remember">
               <label></label>
             </div>
-            <button type="submit" class="btn btn-primary lgnBtn">Submit</button>
+            <button type="submit" class="btn btn-primary lgnBtn">Sign In</button>
             <div class="text-center">
               <p class="lbl">Not a member? <a href="register.html">Register</a></p>
             </div>
@@ -56,7 +56,8 @@
 $(document).ready(function () {
 
                 $(".lgnBtn").click(function (e) {
-
+$('.lgnBtn').attr('disabled','disabled');
+$('.lgnBtn').html('Please Wait...');
                     // var r = $(this).attr("data-id");
                     var dataString = $('#myformses_1').serialize();
                     // $('#loading_air_cell_book2').show();
@@ -67,7 +68,8 @@ $(document).ready(function () {
                         url: 'https://clownfish-app-krh8z.ondigitalocean.app/login_verify.php',
                         data: dataString,
                         success: function (data) {
-                            
+                            $('.lgnBtn').attr('enabled','enabled');
+                            $('.lgnBtn').html('Sign In');
                             $('#resonse').html(data);
                             // $('#loading_air_cell_book2').hide();
                             $('#resonse').show();
