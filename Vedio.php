@@ -90,7 +90,7 @@ include 'func.php';
     ?>
                 <div class="col-md-3 mb-3">
                  <a href='https://d1c0q68deratr.cloudfront.net/<?php echo $id."mp4";?>'>
-                   <iframe id="<?php echo $id;?>" src="https://d1c0q68deratr.cloudfront.net/<?php echo $id.".mp4";?>" allowfullscreen></iframe>  
+                   <iframe id="<?php echo $id;?>" src="https://d1c0q68deratr.cloudfront.net/<?php echo $ID.".mp4";?>" allowfullscreen></iframe>  
                    </a>
                    <button type="button" style="background-color:black;"><i class="fa fa-thumbs-up" style='font-size:15px;color:blue'></i></button>
                    <button type="button" style="background-color:black;"><i class="fa fa-eye" style='font-size:15px;color:blue'></i></button>
