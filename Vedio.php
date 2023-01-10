@@ -75,16 +75,18 @@ include 'func.php';
   //  print_r($mongoViewvideo);
    foreach($mongoViewvideo as $docs){
       $_id =  $docs->_id;
-      $id = $docs->id;
-      $mv_name = $docs->mv_name;
-      $desctribtion =  $docs->desctribtion;
-      $category =  $docs->category;
-      $mv_length =  $docs->mv_length;
-      $writer =  $docs->writer;
-      $director =  $docs->director;
-      $cast =  $docs->cast;
-      $year = $docs->year;
+      $ID = $docs->ID;
+      $Film = $docs->Film;
+      $time =  $docs->time;
+      $Year =  $docs->Year;
+      $IMDB =  $docs->IMDB;
+      $Directors =  $docs->Directors;
+      $Starring =  $docs->Starring;
+      $Genres =  $docs->Genres;
+      $Subtitles = $docs->Subtitles;
+      $Description = $docs->Description;
   
+
     ?>
                 <div class="col-md-3 mb-3">
                  <a href='https://d1c0q68deratr.cloudfront.net/<?php echo $id."mp4";?>'>
