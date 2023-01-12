@@ -19,7 +19,7 @@
       style="background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/55399a55-7430-494f-acfc-3b5df25f773b/GB-en-20230103-popsignuptwoweeks-perspective_alpha_website_small.jpg'); height: 100vh;"> -->
       <div class="row vh-100 align-items-center justify-content-center">
         <div class="col-sm-8 col-md-6 col-lg-4 bg-white rounded p-4 shadow">
-          <div class="row justify-content-center mb-4",>
+          <div class="row justify-content-center mb-4" style="background-color:black">
             <img src="image/movie-logo.png" class="w-25" />
           </div>
           <form id="myformses_1" name="formlogin" action="#" method="#">  
@@ -43,7 +43,7 @@
             </div>
             <button type="submit" class="btn btn-primary lgnBtn">Sign In</button>
             <div class="text-center">
-              <p class="lbl">Not a member? <a href="register.html">Register</a></p>
+              <p class="lbl" style="color:white">Not a member? <a href="register.html">Register</a></p>
             </div>
           </form>
         </div>
