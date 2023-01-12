@@ -36,7 +36,7 @@
               <div id="passwordHelp" class="form-text">Password must be over 6 characters long</div>
 
             </div>
-            <div id='resonse' class="mb-3 text-black" style='display:none'></div>
+            <div id='resonse' class="mb-3 text-white" style='display:none'></div>
             <div class="mb-4 form-check">
               <input type="checkbox" class="form-check-input" id="remember">
               <label></label>
