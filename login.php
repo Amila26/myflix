@@ -4,16 +4,19 @@
 
 <head>
   <title>login</title>
+  <!-- <title>This is updated loging</title> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="stylee.css">
 </head>
 
-<body style="background-color: rgb(10, 9, 9);">
+<body >
+<!-- <body style="background-color: rgb(10, 9, 9);"> -->
   <div class="container">
-    <div class="bg-image"
-      style="background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/55399a55-7430-494f-acfc-3b5df25f773b/GB-en-20230103-popsignuptwoweeks-perspective_alpha_website_small.jpg'); height: 100vh;">
+    <!-- <div class="bg-image"
+      style="background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/55399a55-7430-494f-acfc-3b5df25f773b/GB-en-20230103-popsignuptwoweeks-perspective_alpha_website_small.jpg'); height: 100vh;"> -->
       <div class="row vh-100 align-items-center justify-content-center">
         <div class="col-sm-8 col-md-6 col-lg-4 bg-white rounded p-4 shadow">
           <div class="row justify-content-center mb-4",>
